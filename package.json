@@ -2,7 +2,7 @@
   "name": "desain-doang",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dani27-design.github.io/webDesainDoang/",
+  "homepage": "https://github.com/Dani27-design/webDesainDoang.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
