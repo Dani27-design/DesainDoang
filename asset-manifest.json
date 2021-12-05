@@ -1,34 +1,34 @@
 {
   "files": {
-    "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.e66e9a27.chunk.css",
-    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.f97f5294.chunk.js",
-    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.f97f5294.chunk.js.map",
+    "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.f4a78ad7.chunk.css",
+    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.e5c8fefd.chunk.js",
+    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.e5c8fefd.chunk.js.map",
     "runtime-main.js": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js",
     "runtime-main.js.map": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js.map",
-    "static/js/2.ef3797ed.chunk.js": "//dani27-design.github.io/DesainDoang/static/js/2.ef3797ed.chunk.js",
-    "static/js/2.ef3797ed.chunk.js.map": "//dani27-design.github.io/DesainDoang/static/js/2.ef3797ed.chunk.js.map",
+    "static/js/2.8d467ed5.chunk.js": "//dani27-design.github.io/DesainDoang/static/js/2.8d467ed5.chunk.js",
+    "static/js/2.8d467ed5.chunk.js.map": "//dani27-design.github.io/DesainDoang/static/js/2.8d467ed5.chunk.js.map",
     "index.html": "//dani27-design.github.io/DesainDoang/index.html",
-    "static/css/main.e66e9a27.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/main.e66e9a27.chunk.css.map",
-    "static/js/2.ef3797ed.chunk.js.LICENSE.txt": "//dani27-design.github.io/DesainDoang/static/js/2.ef3797ed.chunk.js.LICENSE.txt",
-    "static/media/Close.85176ce5.svg": "//dani27-design.github.io/DesainDoang/static/media/Close.85176ce5.svg",
-    "static/media/LogoDesainDoang.a9d9a399.svg": "//dani27-design.github.io/DesainDoang/static/media/LogoDesainDoang.a9d9a399.svg",
-    "static/media/Menu.cfc4efaf.svg": "//dani27-design.github.io/DesainDoang/static/media/Menu.cfc4efaf.svg",
-    "static/media/achieve.796f048e.svg": "//dani27-design.github.io/DesainDoang/static/media/achieve.796f048e.svg",
-    "static/media/best.2a42a0d7.svg": "//dani27-design.github.io/DesainDoang/static/media/best.2a42a0d7.svg",
+    "static/css/main.f4a78ad7.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/main.f4a78ad7.chunk.css.map",
+    "static/js/2.8d467ed5.chunk.js.LICENSE.txt": "//dani27-design.github.io/DesainDoang/static/js/2.8d467ed5.chunk.js.LICENSE.txt",
+    "static/media/Close.6c70a9f5.svg": "//dani27-design.github.io/DesainDoang/static/media/Close.6c70a9f5.svg",
+    "static/media/LogoDesainDoang.2a1158e8.svg": "//dani27-design.github.io/DesainDoang/static/media/LogoDesainDoang.2a1158e8.svg",
+    "static/media/Menu.0a82b701.svg": "//dani27-design.github.io/DesainDoang/static/media/Menu.0a82b701.svg",
+    "static/media/achieve.67ea0583.svg": "//dani27-design.github.io/DesainDoang/static/media/achieve.67ea0583.svg",
+    "static/media/best.014165ed.svg": "//dani27-design.github.io/DesainDoang/static/media/best.014165ed.svg",
     "static/media/desainAnime.15b0d876.png": "//dani27-design.github.io/DesainDoang/static/media/desainAnime.15b0d876.png",
     "static/media/desainKanan.5dd240c7.png": "//dani27-design.github.io/DesainDoang/static/media/desainKanan.5dd240c7.png",
     "static/media/desainKiri.02c61a32.png": "//dani27-design.github.io/DesainDoang/static/media/desainKiri.02c61a32.png",
     "static/media/desainVector.5931c57d.png": "//dani27-design.github.io/DesainDoang/static/media/desainVector.5931c57d.png",
     "static/media/gambarAbout.ac530393.png": "//dani27-design.github.io/DesainDoang/static/media/gambarAbout.ac530393.png",
     "static/media/gambarHeader.ce960713.png": "//dani27-design.github.io/DesainDoang/static/media/gambarHeader.ce960713.png",
-    "static/media/iconService.a0660c94.svg": "//dani27-design.github.io/DesainDoang/static/media/iconService.a0660c94.svg",
-    "static/media/price.7f2df36a.svg": "//dani27-design.github.io/DesainDoang/static/media/price.7f2df36a.svg",
-    "static/media/profesional.40b4b1d0.svg": "//dani27-design.github.io/DesainDoang/static/media/profesional.40b4b1d0.svg"
+    "static/media/iconService.28724f85.svg": "//dani27-design.github.io/DesainDoang/static/media/iconService.28724f85.svg",
+    "static/media/price.b3f2c26d.svg": "//dani27-design.github.io/DesainDoang/static/media/price.b3f2c26d.svg",
+    "static/media/profesional.b83cfa12.svg": "//dani27-design.github.io/DesainDoang/static/media/profesional.b83cfa12.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fcb0738a.js",
-    "static/js/2.ef3797ed.chunk.js",
-    "static/css/main.e66e9a27.chunk.css",
-    "static/js/main.f97f5294.chunk.js"
+    "static/js/2.8d467ed5.chunk.js",
+    "static/css/main.f4a78ad7.chunk.css",
+    "static/js/main.e5c8fefd.chunk.js"
   ]
 }
