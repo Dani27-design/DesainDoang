@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.f4a78ad7.chunk.css",
-    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.e5c8fefd.chunk.js",
-    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.e5c8fefd.chunk.js.map",
+    "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.71249c8f.chunk.css",
+    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.a2daf6d3.chunk.js",
+    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.a2daf6d3.chunk.js.map",
     "runtime-main.js": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js",
     "runtime-main.js.map": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js.map",
     "static/js/2.8d467ed5.chunk.js": "//dani27-design.github.io/DesainDoang/static/js/2.8d467ed5.chunk.js",
     "static/js/2.8d467ed5.chunk.js.map": "//dani27-design.github.io/DesainDoang/static/js/2.8d467ed5.chunk.js.map",
     "index.html": "//dani27-design.github.io/DesainDoang/index.html",
-    "static/css/main.f4a78ad7.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/main.f4a78ad7.chunk.css.map",
+    "static/css/main.71249c8f.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/main.71249c8f.chunk.css.map",
     "static/js/2.8d467ed5.chunk.js.LICENSE.txt": "//dani27-design.github.io/DesainDoang/static/js/2.8d467ed5.chunk.js.LICENSE.txt",
     "static/media/Close.6c70a9f5.svg": "//dani27-design.github.io/DesainDoang/static/media/Close.6c70a9f5.svg",
     "static/media/LogoDesainDoang.2a1158e8.svg": "//dani27-design.github.io/DesainDoang/static/media/LogoDesainDoang.2a1158e8.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcb0738a.js",
     "static/js/2.8d467ed5.chunk.js",
-    "static/css/main.f4a78ad7.chunk.css",
-    "static/js/main.e5c8fefd.chunk.js"
+    "static/css/main.71249c8f.chunk.css",
+    "static/js/main.a2daf6d3.chunk.js"
   ]
 }
