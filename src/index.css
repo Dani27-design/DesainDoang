@@ -28,13 +28,22 @@ button {
   align-self: center;
 }
 
+.logo-react {
+  width: 30px;
+  align-self: center;
+  animation: 2s rotate360 infinite linear;
+}
+
 a {
   text-decoration: none;
 }
 
 #main {
   width: 100%;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {
@@ -99,8 +108,7 @@ nav {
 
 .hero {
   width: 82vw;
-  height: 100vh;
-  margin: 0 auto;
+  height: 587px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -113,9 +121,9 @@ nav {
   background-color: #5D4A92;
   position: absolute;
   z-index: -5;
-  top: 24.5%;
-  right: 12%;
-  border-radius: 15%;
+  top: -10%;
+  right: -15%;
+  border-radius: 44px;
   box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -125,9 +133,9 @@ nav {
   background: linear-gradient(144.17deg, #CE8FEC 20%, #8D67CD 75%);
   position: absolute;
   z-index: -3;
-  top: 22.5%;
-  right: 13%;
-  border-radius: 15%;
+  top: -15%;
+  right: -10%;
+  border-radius: 44px;
   box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -139,8 +147,8 @@ nav {
   border-radius: 50%;
   position: absolute;
   z-index: -4;
-  top: 13%;
-  right: 9%;
+  top: -30%;
+  right: -25%;
   transform: rotate(-90deg);
   animation: 5s rotate360 infinite linear;
 }
@@ -152,13 +160,14 @@ nav {
   border-radius: 50%;
   position: absolute;
   z-index: -2;
-  top: 72.5%;
-  right: 32%;
+  top: 80%;
+  right: 80%;
   animation: 10s rotate360 infinite linear;
 }
 
 .aksen {
-  margin-right: 100px;
+  margin-top: 80px;
+  position: relative;
 }
 
 .gambar-header {
@@ -172,9 +181,9 @@ nav {
 }
 
 .kiri {
-  height: 80vh;
+  height: 469.6px;
   width: 40vw;
-  padding-top: 15vh;
+  padding-top: 88.05px;
   align-self: flex-end;
 }
 
@@ -183,7 +192,7 @@ nav {
   font-weight: 700;
   font-size: 40px;
   color: #404040;
-  line-height: 0.5;
+  line-height: 0.9;
 }
 
 .ungu-teks {
@@ -193,17 +202,17 @@ nav {
 .teks-definisi {
   color: #acacac;
   font-size: 15px;
-  line-height: 0.8;
-  width: 40vw;
+  min-width: 250px;
 }
 
 #gimmick {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 15vh;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  position: relative;
 }
 
 .aksen-atas {
@@ -213,8 +222,8 @@ nav {
   border-radius: 50%;
   position: absolute;
   z-index: -1;
-  top: 125%;
-  left: -7%;
+  top: 18%;
+  left: -5%;
   animation: 10s rotate360 infinite linear;
 }
 
@@ -225,8 +234,8 @@ nav {
   border-radius: 50%;
   position: absolute;
   z-index: -2;
-  top: 170%;
-  right: -5%;
+  top: 60%;
+  left: 83%;
   animation: 10s rotate360 infinite linear;
 }
 
@@ -259,13 +268,21 @@ nav {
   align-items: center;
 }
 
+.bulat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
 .icon-gimmick {
-  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .icon-container {
   width: 85vw;
-  margin: 10vh 0px;
+  margin: 80px 0px;
   background-color: #fff;
   border-radius: 30px;
   display: flex;
@@ -278,6 +295,7 @@ nav {
   justify-content: center;
   width: 200px;
   height: 250px;
+  border-radius: 50px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -347,8 +365,6 @@ nav {
 
 #aboutus {
   width: 100%;
-  height: 100vh;
-  margin-top: 10vh;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -364,7 +380,7 @@ nav {
 
 .hero-kanan {
   width: 82vw;
-  height: 100vh;
+  height: 600px;
   margin: 0 auto;
   display: flex;
   display: flex;
@@ -374,7 +390,7 @@ nav {
 }
 
 .aksen-about {
-  margin-left: 100px;
+  position: relative;
 }
 
 .gambar-about {
@@ -387,8 +403,8 @@ nav {
   background-color: #5D4A92;
   position: absolute;
   z-index: -5;
-  top: 234.5%;
-  right: 63%;
+  top: -5%;
+  right: -5%;
   border-radius: 15%;
   box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
 }
@@ -399,8 +415,8 @@ nav {
   background: linear-gradient(144.17deg, #CE8FEC 20%, #8D67CD 75%);
   position: absolute;
   z-index: -3;
-  top: 232.5%;
-  right: 62%;
+  top: -10%;
+  right: -10%;
   border-radius: 15%;
   box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.2);
 }
@@ -413,8 +429,8 @@ nav {
   border-radius: 50%;
   position: absolute;
   z-index: -4;
-  top: 223%;
-  right: 82%;
+  top: -25%;
+  right: 80%;
   transform: rotate(-90deg);
   animation: 5s rotate360 infinite linear;
 }
@@ -426,8 +442,8 @@ nav {
   border-radius: 50%;
   position: absolute;
   z-index: -2;
-  top: 282.5%;
-  right: 59%;
+  top: 85%;
+  right: -25%;
   animation: 10s rotate360 infinite linear;
 }
 
@@ -437,10 +453,9 @@ nav {
 
 #service {
   width: 100%;
-  height: 100vh;
-  margin-bottom: 10vh;
+  height: 600px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -463,8 +478,8 @@ nav {
 }
 
 .container-icon {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-color: #664CAD;
   border-radius: 15px;
   align-items: center;
@@ -480,25 +495,23 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   overflow: hidden;
   padding-left: 20px;
-  width: 240px;
-  height: 70px;
+  width: 200px;
 }
 
 .judul-service {
   color: #664CAD;
-  font-size: 15px;
+  font-size: 13px;
   text-align: left;
   font-weight: 600;
   margin-bottom: -5px;
-  margin-top: -5px;
 }
 
 .teks-definisi-service {
   color: #acacac;
-  font-size: 15px;
+  font-size: 10px;
   line-height: 1.5;
   text-align: left;
 }
@@ -508,6 +521,13 @@ nav {
   flex-direction: row;
   align-items: center;
   margin: 0px 10px;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+.container-pilihan:hover {
+  background-color: rgba(141, 103, 205, 0.2);
+  cursor: pointer;
 }
 
 .kolom {
@@ -523,9 +543,8 @@ nav {
 
 #porto {
   width: 100%;
-  margin-bottom: 10vh;
-  padding-top: 10vh;
-  padding-bottom: 5vh;
+  padding-top: 50px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -540,7 +559,7 @@ nav {
 }
 
 .desain-satu {
-  width: 70vw;
+  width: 895px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -549,7 +568,7 @@ nav {
 }
 
 .desain-dua {
-  width: 70vw;
+  width: 895px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -596,541 +615,7 @@ nav {
   color: #fff;
 }
 
-@media(max-width:1190px) {
-  body {
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  nav {
-    width: 100%;
-  }
-
-  #main {
-    width: 100%;
-  }
-
-  #gimmick {
-    width: 100%;
-  }
-
-  #aboutus {
-    width: 100%;
-  }
-
-  #service {
-    width: 100%;
-  }
-
-  #porto {
-    width: 100%;
-  }
-
-  #footer {
-    width: 100%;
-  }
-
-  .gambar-header {
-    width: 200px;
-  }
-
-  .kotak-bawah {
-    top: 26.5%;
-    right: 12%;
-  }
-
-  .kotak-atas {
-    top: 24.5%;
-    right: 13%;
-  }
-
-  .circle-putus {
-    top: 18%;
-    right: 9%;
-  }
-
-  .circle-full {
-    top: 70.5%;
-    right: 32%;
-  }
-
-
-  .kotak-bawah-about {
-    top: 230.5%;
-    right: 63%;
-  }
-
-  .kotak-atas-about {
-    top: 228.5%;
-    right: 62%;
-  }
-
-  .circle-putus-about {
-    top: 221%;
-    right: 82%;
-  }
-
-  .circle-full-about {
-    top: 275.5%;
-    right: 59%;
-  }
-
-  .gambar-about {
-    width: 200px;
-  }
-
-  .aksen-atas {
-    left: 3%;
-    top: 135%;
-  }
-
-  .aksen-bawah {
-    right: 3%;
-    top: 150%;
-  }
-
-}
-
-@media(max-width:1100px) {
-  body {
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  nav {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #main {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #gimmick {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #aboutus {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #service {
-    width: 100%;
-    margin-top: 15vh;
-    overflow-x: hidden;
-  }
-
-  #porto {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #footer {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  .dark-teks {
-    font-size: 30px;
-  }
-
-  .kotak-bawah {
-    top: 22.5%;
-    right: 12%;
-  }
-
-  .kotak-atas {
-    top: 20.5%;
-    right: 13%;
-  }
-
-  .circle-putus {
-    top: 15%;
-    right: 9%;
-  }
-
-  .circle-full {
-    top: 68.5%;
-    right: 34%;
-  }
-
-  .profesional-container {
-    width: 170px;
-  }
-
-  .aksen-atas {
-    top: 130%;
-  }
-
-  .kotak-bawah-about {
-    top: 227.5%;
-    right: 60%;
-  }
-
-  .kotak-atas-about {
-    top: 225.5%;
-    right: 59%;
-  }
-
-  .circle-putus-about {
-    top: 218%;
-    right: 80%;
-  }
-
-  .circle-full-about {
-    top: 275.5%;
-    right: 55%;
-  }
-
-  .desain-satu {
-    width: 80vw;
-  }
-
-  .desain-dua {
-    width: 80vw;
-  }
-}
-
-@media(max-width:970px) {
-  body {
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  nav {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #main {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #gimmick {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #aboutus {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #service {
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-  }
-
-  #porto {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #footer {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  .teks-definisi {
-    width: 35vw;
-  }
-
-  .circle-putus {
-    top: 13%;
-    right: 9%;
-  }
-
-  .circle-full {
-    top: 68.5%;
-    right: 37%;
-  }
-
-  .profesional-container {
-    border-radius: 20px;
-  }
-
-  .hero-kanan {
-    width: 90vw;
-  }
-
-  .circle-putus-about {
-    top: 218%;
-    right: 83%;
-  }
-
-  .container-icon {
-    width: 80px;
-    height: 80px;
-    background-color: #664CAD;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-
-  .icon-service {
-    width: 35px;
-  }
-
-  .container-teks-pilihan {
-    width: 200px;
-  }
-
-  .desain-satu {
-    width: 90vw;
-  }
-
-  .desain-dua {
-    width: 90vw;
-  }
-}
-
-@media(max-width:600px) {
-  body {
-    margin: 0px;
-    padding: 0px;
-    width: 100vw;
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  nav {
-    width: 100%;
-    overflow-x: hidden;
-    padding: 8px 0;
-    justify-content: space-around;
-  }
-
-  .navi-link {
-    padding: 0px 5px;
-  }
-
-  #main {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #gimmick {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #aboutus {
-    width: 100%;
-    margin-bottom: 0;
-    overflow-x: hidden;
-  }
-
-  #service {
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-  }
-
-  #porto {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  #footer {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  .hero {
-    width: 90vw;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-kanan {
-    height: 70vh;
-    margin: 0;
-  }
-
-  .kiri {
-    height: 80vh;
-    width: 60vw;
-    padding-top: 15vh;
-    align-self: center;
-  }
-
-  .kanan {
-    height: 60vh;
-  }
-
-  .gambar-header {
-    width: 170px;
-  }
-
-  .aksen {
-    margin-right: 0;
-  }
-
-  .kotak-bawah {
-    width: 200px;
-    height: 250px;
-    top: 59.5%;
-    right: 30%;
-    border-radius: 13%;
-  }
-
-  .kotak-atas {
-    width: 200px;
-    height: 250px;
-    top: 57.5%;
-    right: 32%;
-    border-radius: 13%;
-  }
-
-  .circle-putus {
-    width: 70px;
-    height: 70px;
-    top: 53%;
-    right: 26%;
-  }
-
-  .circle-full {
-    width: 70px;
-    height: 70px;
-    top: 92.5%;
-    right: 58%;
-  }
-
-  .teks-definisi {
-    color: #acacac;
-    font-size: 15px;
-    line-height: 0.8;
-    width: 60vw;
-  }
-
-  .aksen-atas {
-    width: 200px;
-    height: 200px;
-  }
-
-  .aksen-bawah {
-    width: 150px;
-    height: 150px;
-    top: 165%;
-  }
-
-  .judul-gimmick {
-    font-size: 13px;
-  }
-
-  .teks-definisi-gimmick {
-    font-size: 10px;
-  }
-
-  .aksen-about {
-    margin-left: 30px;
-  }
-
-  .gambar-about {
-    width: 170px;
-  }
-
-  .kotak-bawah-about {
-    width: 200px;
-    height: 250px;
-    top: 234.5%;
-    right: 61%;
-    border-radius: 13%;
-  }
-
-  .kotak-atas-about {
-    width: 200px;
-    height: 250px;
-    top: 232.5%;
-    right: 59%;
-    border-radius: 13%;
-  }
-
-  .circle-putus-about {
-    width: 70px;
-    height: 70px;
-    top: 227%;
-    right: 85%;
-  }
-
-  .circle-full-about {
-    width: 70px;
-    height: 70px;
-    top: 268.5%;
-    right: 55%;
-  }
-
-  .teks-penjelas-service {
-    margin-bottom: 0;
-  }
-
-  .container-col {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .container-pilihan {
-    margin: 10px 0;
-  }
-
-  .baris {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .desain-satu {
-    height: 105vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-
-  .desain-dua {
-    height: 105vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
-  }
-}
-
-@media(max-width:400px) {
+@media(max-width:828px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -1151,7 +636,7 @@ nav {
 
   #gimmick {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   #aboutus {
@@ -1163,6 +648,7 @@ nav {
 
   #service {
     width: 100%;
+    height: fit-content;
     overflow-x: hidden;
   }
 
@@ -1182,9 +668,9 @@ nav {
 
   .menu {
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
-    align-self: center;
+    margin-top: 50px;
     align-items: center;
     justify-content: space-around;
   }
@@ -1193,11 +679,10 @@ nav {
     align-self: center;
   }
 
-  /* Position and sizing of burger button */
   .bm-burger-button {
     display: block;
     position: fixed;
-    width: 30px;
+    width: 36px;
     height: 30px;
     left: 36px;
     top: 36px;
@@ -1219,26 +704,21 @@ nav {
     width: 24px;
   }
 
-  /* Color/shape of close button cross */
-  /* .bm-cross {
-    background: #a90000;
-  } */
-
   /*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
   .bm-menu-wrap {
     position: fixed;
-    height: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
   }
 
   /* General sidebar styles */
   .bm-menu {
     background: #fff;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
 
@@ -1250,7 +730,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
-    padding: 0.8em;
   }
 
   /* Individual item */
@@ -1260,15 +739,29 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   /* Styling of overlay */
   .bm-overlay {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
   }
 
   .hero {
-    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 750px;
   }
 
   .kiri {
     width: 70vw;
+    height: 300px;
+    padding: auto 0px;
+    margin: 0;
+    align-items: center;
+  }
+
+  .aksen {
+    align-items: center;
+    justify-content: center;
   }
 
   .dark-teks {
@@ -1296,16 +789,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .kotak-bawah {
     width: 170px;
     height: 220px;
-    top: 46.5%;
-    right: 26%;
+    top: -10%;
+    right: -15%;
     border-radius: 15%;
   }
 
   .kotak-atas {
     width: 170px;
     height: 220px;
-    top: 45.5%;
-    right: 28%;
+    top: -15%;
+    right: -10%;
     border-radius: 15%;
   }
 
@@ -1313,15 +806,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
     border: 3px dashed #876ECD;
     width: 70px;
     height: 70px;
-    top: 42%;
-    right: 22%;
+    top: -30%;
+    right: -25%;
   }
 
   .circle-full {
     width: 70px;
     height: 70px;
-    top: 68.5%;
-    right: 58%;
+    top: 85%;
+    right: 80%;
   }
 
   .icon-container {
@@ -1334,14 +827,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .aksen-atas {
     width: 200px;
     height: 200px;
-    top: 95%;
+    top: 13%;
+    left: 10%;
   }
 
   .aksen-bawah {
     width: 150px;
     height: 150px;
-    top: 220%;
+    top: 87%;
     left: 50%;
+  }
+
+  .profesional-container {
+    border-radius: 50px;
   }
 
   .teks-definisi-about {
@@ -1357,13 +855,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .hero-kanan {
     width: 100vw;
-    height: 60vh;
+    height: 800px;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-around;
   }
 
   .kanan {
-    height: 40vh;
     width: 60vw;
   }
 
@@ -1379,16 +877,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .kotak-bawah-about {
     width: 170px;
     height: 220px;
-    top: 297.5%;
-    right: 33%;
+    top: -15%;
+    right: -5%;
     border-radius: 13%;
   }
 
   .kotak-atas-about {
     width: 170px;
     height: 220px;
-    top: 295.5%;
-    right: 30%;
+    top: -20%;
+    right: -10%;
     border-radius: 13%;
   }
 
@@ -1396,24 +894,29 @@ Note: Beware of modifying this element as it can break the animations - you shou
     border: 3px dashed #876ECD;
     width: 70px;
     height: 70px;
-    top: 292%;
-    right: 60%;
+    top: -35%;
+    right: 80%;
   }
 
   .circle-full-about {
     width: 70px;
     height: 70px;
-    top: 318.5%;
-    right: 23%;
+    top: 85%;
+    right: -25%;
   }
 
-  .container-col {
-    display: flex;
-    flex-direction: column;
+  .container-pilihan {
+    margin: 10px 0;
+    width: 300px;
   }
 
   .kolom {
-    margin: 0;
+    margin: 5px 0;
+  }
+
+  .baris {
+    display: flex;
+    flex-direction: column;
   }
 
   .desain-kiri {
@@ -1422,7 +925,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     border-radius: 25px;
     box-shadow: 5px 10px 30px rgba(206, 143, 236, 0.5);
   }
-  
+
   .desain-kanan {
     width: 300px;
     height: 200px;
@@ -1431,7 +934,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .desain-satu {
-    height: 55vh;
+    height: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1439,10 +942,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .desain-dua {
-    height: 55vh;
+    height: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 20px;
   }
 }

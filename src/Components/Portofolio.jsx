@@ -3,8 +3,11 @@ import desainAnime from '../desainAnime.png'
 import desainKanan from '../desainKanan.png'
 import desainKiri from '../desainKiri.png'
 import desainVector from '../desainVector.png'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 function Portofolio() {
+
     return (
         <div id='porto'>
             <div className='container-porto'>
@@ -14,12 +17,20 @@ function Portofolio() {
                 </div>
                 <div className='container-desain'>
                     <div className='desain-satu'>
-                        <img src={desainAnime} alt="" className='desain-kiri' />
-                        <img src={desainKanan} alt="" className='desain-kanan' />
+                        <Zoom zoomMargin={40} >
+                            <img src={desainAnime} alt="" className='desain-kiri' />
+                        </Zoom>
+                        <Zoom zoomMargin={40} >
+                            <img src={desainKanan} alt="" className='desain-kanan' />
+                        </Zoom>
                     </div>
                     <div className='desain-dua'>
-                        <img src={desainVector} alt="" className='desain-kiri' />
-                        <img src={desainKiri} alt="" className='desain-kanan' />
+                        <Zoom zoomMargin={40} >
+                            <img src={desainVector} alt="" className='desain-kiri' />
+                        </Zoom>
+                        <Zoom zoomMargin={40} >
+                            <img src={desainKiri} alt="" className='desain-kanan' />
+                        </Zoom>
                     </div>
                 </div>
             </div>
