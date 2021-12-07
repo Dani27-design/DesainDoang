@@ -686,11 +686,13 @@ nav {
     height: 30px;
     left: 36px;
     top: 36px;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #373a47;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* Color/shape of burger icon bars on hover*/
@@ -702,6 +704,7 @@ nav {
   .bm-cross-button {
     height: 24px;
     width: 24px;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /*
@@ -714,27 +717,37 @@ nav {
     left: 0;
     align-items: center;
     justify-content: center;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* General sidebar styles */
   .bm-menu {
-    background: #fff;
+    background-color: #fff;
     font-size: 1.15em;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
     fill: #fff;
+    border: 0px !important;
   }
 
   /* Wrapper for item list */
   .bm-item-list {
     color: #b8b7ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px !important;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* Individual item */
   .bm-item {
     display: inline-block;
+    border: 0px !important;
+    -webkit-tap-highlight-color: transparent;
   }
 
   /* Styling of overlay */

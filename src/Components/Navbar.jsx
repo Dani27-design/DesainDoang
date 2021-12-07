@@ -7,12 +7,13 @@ import { WindowView, SmoothScroll } from "./Viewport";
 import { bubble as Menu } from 'react-burger-menu'
 
 function Navbar() {
-
     const [nav, setnav] = useState(false);
+    const [isOpen, setOpen] = useState(false)
 
     const changeBackground = () => {
         if (window.scrollY >= 50) {
             setnav(true);
+            setOpen(false);
         } else {
             setnav(false);
         }
@@ -56,6 +57,14 @@ function Navbar() {
         }
     }, [y_top]);
 
+    const handleIsOpen = () => {
+        setOpen(!isOpen)
+    }
+
+    const closeSideBar = () => {
+        setOpen(false)
+    }
+
     return (
         <>
             <nav className={nav ? 'nav active' : 'nav'}>
@@ -85,19 +94,22 @@ function Navbar() {
 
             <Menu
                 customBurgerIcon={<img className="menu-icon" src={MenuIcon} alt="" />}
-                customCrossIcon={<img className="close-icon" src={CloseIcon} alt="" />}>
+                customCrossIcon={<img className="close-icon" src={CloseIcon} alt="" />}
+                width={'80%'}
+                isOpen={isOpen}
+                onOpen={handleIsOpen}>
                 <nav className='navi'>
                     <div className="link-con menu">
-                        <Link to="/" className="navi-link" name="main">
+                        <Link to="/" className="navi-link" name="main" onClick={closeSideBar}>
                             <img className="logo" src={Logo} alt="" />
                         </Link>
-                        <Link to="/" className="navi-link" name="aboutus">
+                        <Link to="/" className="navi-link" name="aboutus" onClick={closeSideBar}>
                             About
                         </Link>
-                        <Link to="/" className="navi-link" name="service">
+                        <Link to="/" className="navi-link" name="service" onClick={closeSideBar}>
                             Service
                         </Link>
-                        <Link to="/" className="navi-link" name="porto">
+                        <Link to="/" className="navi-link" name="porto" onClick={closeSideBar}>
                             Portofolio
                         </Link>
                         <a href="https://wa.me/6285790428078" rel="noopener noreferrer" className="navi-link" target="_self">Contact</a>
