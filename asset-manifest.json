@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.8adf7855.chunk.css",
-    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.034ffd89.chunk.js",
-    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.034ffd89.chunk.js.map",
+    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.a1a937eb.chunk.js",
+    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.a1a937eb.chunk.js.map",
     "runtime-main.js": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js",
     "runtime-main.js.map": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js.map",
     "static/css/2.0d0b0543.chunk.css": "//dani27-design.github.io/DesainDoang/static/css/2.0d0b0543.chunk.css",
@@ -38,6 +38,6 @@
     "static/css/2.0d0b0543.chunk.css",
     "static/js/2.7d685162.chunk.js",
     "static/css/main.8adf7855.chunk.css",
-    "static/js/main.034ffd89.chunk.js"
+    "static/js/main.a1a937eb.chunk.js"
   ]
 }
