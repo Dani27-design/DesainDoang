@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.8adf7855.chunk.css",
-    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.a1a937eb.chunk.js",
-    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.a1a937eb.chunk.js.map",
+    "main.css": "//dani27-design.github.io/DesainDoang/static/css/main.1ccc6716.chunk.css",
+    "main.js": "//dani27-design.github.io/DesainDoang/static/js/main.1572eb9e.chunk.js",
+    "main.js.map": "//dani27-design.github.io/DesainDoang/static/js/main.1572eb9e.chunk.js.map",
     "runtime-main.js": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js",
     "runtime-main.js.map": "//dani27-design.github.io/DesainDoang/static/js/runtime-main.fcb0738a.js.map",
     "static/css/2.0d0b0543.chunk.css": "//dani27-design.github.io/DesainDoang/static/css/2.0d0b0543.chunk.css",
-    "static/js/2.7d685162.chunk.js": "//dani27-design.github.io/DesainDoang/static/js/2.7d685162.chunk.js",
-    "static/js/2.7d685162.chunk.js.map": "//dani27-design.github.io/DesainDoang/static/js/2.7d685162.chunk.js.map",
+    "static/js/2.adc8b770.chunk.js": "//dani27-design.github.io/DesainDoang/static/js/2.adc8b770.chunk.js",
+    "static/js/2.adc8b770.chunk.js.map": "//dani27-design.github.io/DesainDoang/static/js/2.adc8b770.chunk.js.map",
     "index.html": "//dani27-design.github.io/DesainDoang/index.html",
     "static/css/2.0d0b0543.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/2.0d0b0543.chunk.css.map",
-    "static/css/main.8adf7855.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/main.8adf7855.chunk.css.map",
-    "static/js/2.7d685162.chunk.js.LICENSE.txt": "//dani27-design.github.io/DesainDoang/static/js/2.7d685162.chunk.js.LICENSE.txt",
+    "static/css/main.1ccc6716.chunk.css.map": "//dani27-design.github.io/DesainDoang/static/css/main.1ccc6716.chunk.css.map",
+    "static/js/2.adc8b770.chunk.js.LICENSE.txt": "//dani27-design.github.io/DesainDoang/static/js/2.adc8b770.chunk.js.LICENSE.txt",
     "static/media/Character.eb4636cd.svg": "//dani27-design.github.io/DesainDoang/static/media/Character.eb4636cd.svg",
     "static/media/Close.85176ce5.svg": "//dani27-design.github.io/DesainDoang/static/media/Close.85176ce5.svg",
     "static/media/Feed.a1b9d60f.svg": "//dani27-design.github.io/DesainDoang/static/media/Feed.a1b9d60f.svg",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.fcb0738a.js",
     "static/css/2.0d0b0543.chunk.css",
-    "static/js/2.7d685162.chunk.js",
-    "static/css/main.8adf7855.chunk.css",
-    "static/js/main.a1a937eb.chunk.js"
+    "static/js/2.adc8b770.chunk.js",
+    "static/css/main.1ccc6716.chunk.css",
+    "static/js/main.1572eb9e.chunk.js"
   ]
 }
