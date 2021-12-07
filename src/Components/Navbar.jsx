@@ -34,9 +34,10 @@ function Navbar() {
 
         //TOGGLE LINK ACTIVE
         links.forEach((link, i) => {
-            link.addEventListener("click", () => {
+            link.addEventListener("click", (event) => {
+                event.preventDefault();
                 //SMOOTH SCROLL
-                const targetId = link.getAttribute("name");
+                const targetId = link.getAttribute("href");
                 const duration = 1000;
                 setTimeout(() => {
                     SmoothScroll({ targetId, duration });
@@ -69,21 +70,13 @@ function Navbar() {
         <>
             <nav className={nav ? 'nav active' : 'nav'}>
                 <div className="link-con logo-gambar">
-                    <Link to="/" className="navi-link" name="main">
-                        <img className="logo" src={Logo} alt="" />
-                    </Link>
+                    <a href="main" className="navi-link"><img className="logo" src={Logo} alt="" /></a>
                 </div>
 
                 <div className="link-con menu">
-                    <Link to="/" className="navi-link" name="aboutus">
-                        About
-                    </Link>
-                    <Link to="/" className="navi-link" name="service">
-                        Service
-                    </Link>
-                    <Link to="/" className="navi-link" name="porto">
-                        Portofolio
-                    </Link>
+                    <a href="aboutus" className="navi-link">About</a>
+                    <a href="service" className="navi-link">Service</a>
+                    <a href="porto" className="navi-link">Portofolio</a>
                     <a href="https://wa.me/6285790428078" rel="noopener noreferrer" className="navi-link" target="_self">Contact</a>
                 </div>
 
@@ -97,21 +90,14 @@ function Navbar() {
                 customCrossIcon={<img className="close-icon" src={CloseIcon} alt="" />}
                 width={'80%'}
                 isOpen={isOpen}
-                onOpen={handleIsOpen}>
+                onOpen={handleIsOpen}
+                disableAutoFocus>
                 <nav className='navi'>
                     <div className="link-con menu">
-                        <Link to="/" className="navi-link" name="main" onClick={closeSideBar}>
-                            <img className="logo" src={Logo} alt="" />
-                        </Link>
-                        <Link to="/" className="navi-link" name="aboutus" onClick={closeSideBar}>
-                            About
-                        </Link>
-                        <Link to="/" className="navi-link" name="service" onClick={closeSideBar}>
-                            Service
-                        </Link>
-                        <Link to="/" className="navi-link" name="porto" onClick={closeSideBar}>
-                            Portofolio
-                        </Link>
+                        <a href="main" className="navi-link"><img className="logo" src={Logo} alt="" /></a>
+                        <a href="aboutus" className="navi-link">About</a>
+                        <a href="service" className="navi-link">Service</a>
+                        <a href="porto" className="navi-link">Portofolio</a>
                         <a href="https://wa.me/6285790428078" rel="noopener noreferrer" className="navi-link" target="_self">Contact</a>
                         <button className='btn-subs' onClick={() => {
                             window.open("https://www.instagram.com/p/CMeU4HJH3LW/?utm_medium=copy_link", "_blank");

@@ -753,6 +753,8 @@ nav {
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    overflow: hidden;
     top: 0;
   }
 

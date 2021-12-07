@@ -18,9 +18,10 @@ function Header() {
 
         //TOGGLE LINK ACTIVE
         links.forEach((link, i) => {
-            link.addEventListener("click", () => {
+            link.addEventListener("click", (event) => {
+                event.preventDefault();
                 //SMOOTH SCROLL
-                const targetId = link.getAttribute("name");
+                const targetId = link.getAttribute("href");
                 const duration = 1000;
                 setTimeout(() => {
                     SmoothScroll({ targetId, duration });
@@ -51,9 +52,7 @@ function Header() {
                         <p className='dark-teks'>With The <span className='ungu-teks'>Best Quality</span></p>
                         <p className='teks-definisi'>Create a design to make it easier to promote your product</p>
                         <div className="container">
-                            <Link to="/" className="teks-button-gts" name="gimmick">
-                                Get Started
-                            </Link>
+                            <a href="gimmick" className="teks-button-gts">Get Started</a>
                         </div>
                     </div>
                     <div className='aksen'>
